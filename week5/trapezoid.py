@@ -1,0 +1,8 @@
+print("Height: ")
+height = int(input())
+print("Base, first value: ")
+base1 = int(input())
+print("Base, second value")
+base2 = int(input())
+area = (((base1 + base2)*height)/2)
+print("Expected output: ", area)
