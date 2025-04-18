@@ -58,7 +58,7 @@ c1,c2,c3,c4,c5 = False, False, False, False, False
 class Coin(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
-        self.image = pygame.image.load("coin.png")
+        self.image = pygame.image.load("coin.svg")
         self.image = pygame.transform.scale(self.image, (40, 40))
         self.rect = self.image.get_rect()
         self.rect.center = (random.randint(40, SCREEN_WIDTH - 40), random.randint(40, SCREEN_HEIGHT - 40))
